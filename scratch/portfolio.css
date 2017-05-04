@@ -1,0 +1,160 @@
+/* stylesheet for portfolio.html */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+ *
+ * COLUMN SIZING FOR GRID 
+ *
+ */
+/* small sized screens */
+@media only screen and (max-width: 480px){
+    .s1 { width: 8.333333%; }
+    .s2 { width: 16.666666%; }
+    .s3 { width: 33.333333%; background-color: aquamarine; }
+    .s4 { width: 25%; background-color: aquamarine; }
+    .s5 { width: 41.666666%; background-color: aquamarine; }
+    .s6 { width: 50%; background-color: aquamarine; }
+    .s7 { width: 58.333333%; background-color: aquamarine; }
+    .s8 { width: 66.666666%; background-color: aquamarine; }
+    .s9 { width: 75%; background-color: aquamarine; }
+    .s10 { width: 83.333333%; background-color: aquamarine; }
+    .s11 { width: 91.666666%; background-color: aquamarine; }
+    .s12 { width: 100%; background-color: aquamarine; }
+    .hide_on_small { display: none !important; }
+    .hide_on_med_down { display: none !important; }
+    .header{ padding: 50px;
+}
+}
+/* medium sized screens */
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .m1 { width: 8.333333%; }
+    .m2 { width: 16.666666%; }
+    .m3 { width: 33.333333%; background-color: lightpink; }
+    .m4 { width: 25%; background-color: lightpink; }
+    .m5 { width: 41.666666%; background-color: lightpink; }
+    .m6 { width: 50%; background-color: lightpink; }
+    .m7 { width: 58.333333%; background-color: lightpink; }
+    .m8 { width: 66.666666%; background-color: lightpink; }
+    .m9 { width: 75%; background-color: lightpink; }
+    .m10 { width: 83.333333%; background-color: lightpink; }
+    .m11 { width: 91.666666%; background-color: lightpink; }
+    .m12 { width: 100%; background-color: lightpink; }
+    .hide_on_med { display: none !important; }
+    .hide_on_med_down { display: none !important; }
+    .header{ padding: 75px;}
+}
+/* large sized screens */
+@media only screen and (min-width: 1024px){
+    .l1 { width: 8.333333%; }
+    .l2 { width: 16.666666%; }
+    .l3 { width: 33.333333%; background-color: lightgoldenrodyellow; }
+    .l4 { width: 25%; background-color: lightgoldenrodyellow; }
+    .l5 { width: 41.666666%; background-color: lightgoldenrodyellow; }
+    .l6 { width: 50%; background-color: lightgoldenrodyellow; }
+    .l7 { width: 58.333333%; background-color: lightgoldenrodyellow; }
+    .l8 { width: 66.666666%; background-color: lightgoldenrodyellow; }
+    .l9 { width: 75%; background-color: lightgoldenrodyellow; }
+    .l10 { width: 83.333333%; background-color: lightgoldenrodyellow; }
+    .l11 { width: 91.666666%; background-color: lightgoldenrodyellow; }
+    .l12 { width: 100%; background-color: lightgoldenrodyellow; }
+    .header{ padding: 100px; }
+}
+/*
+ *
+ * END GRID COLUMNS
+ *
+ */
+
+@media only screen {
+
+    #wrapper{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .container{
+        width: 100%;
+    }
+    .parallax{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('fireflies.jpg');
+        margin: 0px auto;
+    }
+    .center {
+        text-align: center;
+    }
+    img{
+        height: 100%;
+        display: inline-block;
+    }
+    .num{
+        border-radius: 50%;
+        display: inline-block;
+        vertical-align: top;
+        width: 60px;
+        height: 60px;
+    }
+
+    /*
+    *
+    * BACKGROUND AND TEXT COLOR
+    *
+    */
+    .lightblue{
+        background-color: lightblue;
+    }
+    .lightgrey{
+        background-color: lightgrey;
+    }
+    .lightcoral{
+        background-color: lightcoral
+    }
+    .lightgreen{
+        background-color: lightgreen;
+    }
+    .white-text{
+        color: white;
+    }
+    .black-text{
+        color: black;
+    }
+    /*
+    *
+    * END BACKGROUND AND TEXT COLOR
+    *
+    */
+    p.mid{
+        margin-top: 20px;
+    }
+    p{
+        display: inline-block;
+        vertical-align: top;
+        background-color: lightslategray;
+    }
+    .font{
+        font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    }
+}
+
+/*
+li{
+    background: #D8D8DC;
+    border: 1px solid silver;
+    padding: 5px;
+    display: inline-block;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+#grey{
+    background-color: #D8D8DC;
+    padding: 2px 10px;
+}*/

@@ -1,0 +1,22 @@
+.parallax-container {
+      height: 100px;
+    }
+
+.parall{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('fireflies.jpg');
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+h1{
+    margin: 0px;
+    padding: 100px;
+}
+p{
+    margin: 0px;
+    padding-top: 15px;
+}
